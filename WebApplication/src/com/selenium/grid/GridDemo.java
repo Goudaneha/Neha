@@ -1,4 +1,4 @@
-package com.selenium.grid;
+////package com.selenium.grid;
 
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -14,18 +14,18 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class GridDemo {
+///public class GridDemo {
 	WebDriver wd;
 	String str="http://localhost:4444/wd/hub";
 		
 @BeforeTest
 public void test1() throws MalformedURLException
 {
-	DesiredCapabilities dc=DesiredCapabilities.chrome();
+	//DesiredCapabilities dc=DesiredCapabilities.chrome();
 	dc.setPlatform(Platform.ANY);
 	wd=new RemoteWebDriver(new URL(str),dc);
 	wd.manage().window().maximize();
-	wd.get("https://connect.maveric-systems.com/");
+	////wd.get("https://connect.maveric-systems.com/");
 }
 @AfterTest
 public void test2() {

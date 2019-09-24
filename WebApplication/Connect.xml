@@ -4,7 +4,7 @@
 <test name="ToolQA">
 <parameter name="Username" value="neha"/>
 <parameter name="Password" value="12345"/>
-	<classes>
+	////////////////////////<classes>
 		<class name="com.testng.mav.TestNg4"/>
 	</classes>
 </test>
