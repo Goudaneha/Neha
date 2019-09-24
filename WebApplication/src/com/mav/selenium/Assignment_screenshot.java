@@ -21,7 +21,7 @@ public class Assignment_screenshot {
 	 WebElement mainMenu=driver.findElement(By.xpath("//li[@class='menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-26284 has-children']//a//span[@class='menu-text']"));
 		 act.moveToElement(mainMenu);
 		WebElement subMenu= driver.findElement(By.xpath("//li[@class='menu-item menu-item-type-post_type menu-item-object-page menu-item-31209']//a[@data-level='2']//span[@class='menu-text']"));
-		act.moveToElement(subMenu);
+		//act.moveToElement(subMenu);
 		act.click().build().perform();
 		Screen_shot.takescreenshot(driver);
 	}
