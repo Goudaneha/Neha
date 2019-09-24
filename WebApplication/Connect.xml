@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Maveric">
+<test name="ToolQA">
+<parameter name="Username" value="neha"/>
+<parameter name="Password" value="12345"/>
+	<classes>
+		<class name="com.testng.mav.TestNg4"/>
+	</classes>
+</test>
+</suite>

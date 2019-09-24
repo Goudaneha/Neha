@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Maveric]">
+  <test name="ToolQA(failed)">
+    <classes>
+      <class name="com.testng.mav.DataProviderDemo">
+        <methods>
+          <include name="fun1"/>
+        </methods>
+      </class> <!-- com.testng.mav.DataProviderDemo -->
+    </classes>
+  </test> <!-- ToolQA(failed) -->
+</suite> <!-- Failed suite [Maveric] -->

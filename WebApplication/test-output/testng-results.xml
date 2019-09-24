@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="65857" started-at="2019-09-18T08:25:16Z" finished-at="2019-09-18T08:26:22Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="65857" started-at="2019-09-18T08:25:16Z" finished-at="2019-09-18T08:26:22Z">
+      <class name="com.selenium.grid.GridDemo1">
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.selenium.grid.GridDemo1@d2cc05a]" name="test1" is-config="true" duration-ms="28987" started-at="2019-09-18T13:55:16Z" finished-at="2019-09-18T13:55:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.selenium.grid.GridDemo2@23ceabc1]" name="test1" is-config="true" duration-ms="25387" started-at="2019-09-18T13:55:45Z" finished-at="2019-09-18T13:56:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:com.selenium.grid.GridDemo1@d2cc05a]" name="test2" duration-ms="10443" started-at="2019-09-18T13:56:11Z" finished-at="2019-09-18T13:56:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+      </class> <!-- com.selenium.grid.GridDemo1 -->
+      <class name="com.selenium.grid.GridDemo2">
+        <test-method status="PASS" signature="test2()[pri:0, instance:com.selenium.grid.GridDemo2@23ceabc1]" name="test2" duration-ms="10826" started-at="2019-09-18T13:56:11Z" finished-at="2019-09-18T13:56:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+      </class> <!-- com.selenium.grid.GridDemo2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
